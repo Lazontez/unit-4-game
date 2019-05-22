@@ -1,14 +1,14 @@
 
 body{
     font-family: 'Stylish', sans-serif;
-    background-color: gray
-    /* background-image: image-set("assets/images/memphis-mini-dark.png") */
+    /* background-color: gray */
+    
 }
-
 .crystal{
-    border:2px solid blue;
+    /* border:2px solid blue; */
     height: 100px;
     width: 100px;
+    
 }
 .crystals{
     display: flex;

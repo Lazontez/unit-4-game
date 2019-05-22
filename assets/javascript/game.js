@@ -44,10 +44,16 @@ $(document).ready(function () {
 
             })
             
-
+                
             crystal.css({
-                "background-image": "src('"+ crystalImages[i] +"')",
+                "background-image": "url("+crystalImages[i]+")",
+                 "background-position": "center",
+                //  "object-fit": "contain",
 
+
+                 
+                "width":"100px",
+                "height":"100px"
             })
 
             $(".crystals").append(crystal)
